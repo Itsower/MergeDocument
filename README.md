@@ -63,7 +63,7 @@ public class DocumentBiz
         List<TemplateDataBase> data = new List<TemplateDataBase>
         {
             new BlockRepeat { Text = "Write document content with flexible custom model structure." },
-            new BlockRepeat { Text = "Generate document content with repeatable template, including World Block and Table." }
+            new BlockRepeat { Text = "Generate document content with repeatable template, including World Block and Table." },
             new BlockRepeat { Text = "Support .Net Framework development, and Microsoft World Developer template." }
         };
 
