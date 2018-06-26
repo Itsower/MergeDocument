@@ -27,4 +27,6 @@ MergeDocument.dll provides a simple and flexible structure that documents can be
 
 ### Writing Repeatable Text ###
 #### Define the Model Structure of Document ####
-<div align=center>![Alt text](https://github.com/Itsower/MergeDocument/blob/master/writingRepeatableText.jpg)</div>
+<div align=center>
+  ![Alt text](https://github.com/Itsower/MergeDocument/blob/master/writingRepeatableText.jpg)
+</div>
