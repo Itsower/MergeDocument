@@ -73,5 +73,7 @@ public class DocumentBiz
         Console.WriteLine($@"File {output} generated successfully");
     }
 }
-
 ```
+
+#### Merge Result ####
+![Alt text](https://github.com/Itsower/MergeDocument/blob/master/writingRepeatableText_Result.jpg)
