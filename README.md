@@ -14,7 +14,7 @@ MergeDocument.dll provides a simple and flexible structure that documents can be
 
 ## Example of usage ##
 
-[Here](http://google.com.tw "Here") you will find the example of source code and document templates.
+[Here](https://github.com/Itsower/MergeDocument "Here") you will find the example of source code and document templates.
 
 ### How to create template ###
 - Open Microsoft Word and create new file.
