@@ -1,11 +1,11 @@
 # MergeDocument.dll #
 ## Briefing Summary ##
 
-MergeDocument.dll provides a simple and flexible structure that documents can be generated automatically through the combination of Microsoft World template and .NET Framework C# custom model. With some basic rules, users can do:
+MergeDocument.dll provides a simple and flexible structure that documents can be generated automatically through the combination of Microsoft World template and .NET Framework development custom model. With some basic rules, users can do:
 
 - Write document content with flexible custom model structure.
 - Generate document content with repeatable template, including World Block and Table.
-- Support .Net Framework coding environment, and Microsoft World Developer template.
+- Support .Net Framework development, and Microsoft World Developer template.
 
 ### Support ###
 - Coding Environment: .Net Framework 4.6.1 Up
