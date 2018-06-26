@@ -26,7 +26,6 @@ MergeDocument.dll provides a simple and flexible structure that documents can be
 ![Alt text](https://github.com/Itsower/MergeDocument/blob/master/createDocumentTemplate.jpg)
 
 ### Writing Repeatable Text ###
-#### Define the Model Structure of Document ####
 ![Alt text](https://github.com/Itsower/MergeDocument/blob/master/writingRepeatableText.jpg)
 
 #### Define the Model Structure of Document ####
@@ -45,4 +44,34 @@ namespace MergeMocumentSampleCode.SampleModels
         public string Text { get; set; }
     }
 }
+```
+
+#### Sample Code ####
+```csharp
+// Reference MergeDocument
+using MergeDocument.Model.BaseObject;
+using MergeDocument.Model.Interface;
+
+public class DocumentBiz
+{
+    public void BlockRepeatSample()
+    {
+        string output = Path.Combine(@"D:\", $"{DateTime.Now:yyyyMMddHHmmss}.docx");
+
+        // New List of TemplateDataBase and add Template Class Object
+        // Template Class must inheritance TemplateDataBase class
+        List<TemplateDataBase> data = new List<TemplateDataBase>
+        {
+            new BlockRepeat { Text = "Write document content with flexible custom model structure." },
+            new BlockRepeat { Text = "Generate document content with repeatable template, including World Block and Table." }
+            new BlockRepeat { Text = "Support .Net Framework development, and Microsoft World Developer template." }
+        };
+
+        // Merge 
+        var wordXmlBiz = new WordXMLBiz(data);
+        wordXmlBiz.MergeFile(@"D:\BlockRepeatSample.docx", output);
+        Console.WriteLine($@"File {output} generated successfully");
+    }
+}
+
 ```
