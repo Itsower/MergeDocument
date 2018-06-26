@@ -28,3 +28,21 @@ MergeDocument.dll provides a simple and flexible structure that documents can be
 ### Writing Repeatable Text ###
 #### Define the Model Structure of Document ####
 ![Alt text](https://github.com/Itsower/MergeDocument/blob/master/writingRepeatableText.jpg)
+
+#### Define the Model Structure of Document ####
+```csharp
+// Reference MergeDocument
+using MergeDocument.Model.BaseObject;
+using MergeDocument.Model.Interface;
+
+namespace MergeMocumentSampleCode.SampleModels
+{
+    // Template Class must inheritance TemplateDataBase class
+    public class BlockRepeat : TemplateDataBase
+    {
+        // Bind Field Property, must Add BindField attribute
+        [BindField]
+        public string Text { get; set; }
+    }
+}
+```
