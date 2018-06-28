@@ -168,3 +168,8 @@ public class DocumentBiz
 #### Merge Result ####
 ![Alt text](https://github.com/Itsower/MergeDocument/blob/master/writingRepeatableTableStructureResult.jpg)
 -----
+
+### Writing Text to Repeatable Nested Block/Table Structure ###
+#### Define the Model Structure of Document ####
+#### Sample Code ####
+#### Merge Result ####
