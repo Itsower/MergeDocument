@@ -173,5 +173,63 @@ public class DocumentBiz
 ![Alt text](https://github.com/Itsower/MergeDocument/blob/master/writingNestedRepeatableStructure.jpg)
 
 #### Define the Model Structure of Document ####
+```csharp
+// Reference MergeDocument
+using MergeDocument.Model.BaseObject;
+using MergeDocument.Model.Interface;
+
+namespace MergeMocumentSampleCode.SampleModels
+{
+    // Template Class, must inheritance TemplateDataBase class
+    public class NestedDocumentSample : TemplateDataBase
+    {
+        [BindField]
+        public string OrderName { get; set; }
+
+        // Block Repeater Property, must Add BlockRepeater attribute
+        // Use collections as type of BlockRepeater Property
+        [BlockRepeater]
+        public List<ProductDescription> ProductDescriptions { get; set; }
+
+        // Table Repeater Property, must Add Repeater attribute
+        // Use collections as type of Repeater Property
+        [Repeater]
+        public List<OrderDetail> OrderDetails { get; set; }
+    }
+
+    // Nested Repeater
+    public class ProductDescription : TemplateDataBase
+    {
+        [BindField]
+        public string DescriptionContent { get; set; }
+    }
+
+    // Nested Repeater
+    public class OrderDetail : TemplateDataBase
+    {
+        [BindField]
+        public string UnitPrice { get; set; }
+
+        [BindField]
+        public string Quantity { get; set; }
+
+        [BindField]
+        public string Discount { get; set; }
+
+        [BindField]
+        public string Customer { get; set; }
+
+        [BindField]
+        public string ExtendedPrice { get; set; }
+    }
+}
+```
+
 #### Sample Code ####
+```csharp
+
+
+
+```
+
 #### Merge Result ####
