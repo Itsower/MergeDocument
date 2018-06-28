@@ -227,9 +227,165 @@ namespace MergeMocumentSampleCode.SampleModels
 
 #### Sample Code ####
 ```csharp
+// Reference MergeDocument
+using MergeDocument.Biz;
+using MergeDocument.Model.Interface;
+using MergeMocumentSampleCode.SampleModels;
+using MergeDocument.Common;
 
+public class DocumentBiz
+{
+    public void NestedDocumentSample()
+    {
+        string output = Path.Combine(@"D:\", $"{DateTime.Now:yyyyMMddHHmmss}.docx");
 
+        List<TemplateDataBase> data = new List<TemplateDataBase>
+        {
+            new NestedDocumentSample()
+            {
+               OrderName = "Pencils",
+               ProductDescriptions = new List<ProductDescription>
+               {
+                   new ProductDescription
+                   {
+                       DescriptionContent ="Pencil DescriptionContent"
+                   },
+                   new ProductDescription
+                   {
+                       DescriptionContent ="Pencil Price"
+                   },
+                   new ProductDescription
+                   {
+                       DescriptionContent ="Pencil Supplier"
+                   },
+               },
+               OrderDetails = new List<OrderDetail>
+               {
+                   new OrderDetail
+                   {
+                       UnitPrice = "10",
+                       Quantity = "100",
+                       Discount = "0",
+                       Customer = "○○ Customer",
+                       ExtendedPrice = "0",
+                   },
+                   new OrderDetail
+                   {
+                       UnitPrice = "10",
+                       Quantity = "500",
+                       Discount = "0",
+                       Customer = "○○ Customer1",
+                       ExtendedPrice = "0",
+                   },
+                   new OrderDetail
+                   {
+                       UnitPrice = "10",
+                       Quantity = "300",
+                       Discount = "0",
+                       Customer = "○○ Customer2",
+                       ExtendedPrice = "0",
+                   },
+               }
+            },
+            new NestedDocumentSample()
+            {
+               OrderName = "Notebooks",
+               ProductDescriptions = new List<ProductDescription>
+               {
+                   new ProductDescription
+                   {
+                       DescriptionContent ="Notebooks DescriptionContent"
+                   },
+                   new ProductDescription
+                   {
+                       DescriptionContent ="Notebooks Price"
+                   },
+                   new ProductDescription
+                   {
+                       DescriptionContent ="Notebooks Supplier"
+                   },
+               },
+               OrderDetails = new List<OrderDetail>
+               {
+                   new OrderDetail
+                   {
+                       UnitPrice = "40",
+                       Quantity = "100",
+                       Discount = "0",
+                       Customer = "○○ Customer",
+                       ExtendedPrice = "0",
+                   },
+                   new OrderDetail
+                   {
+                       UnitPrice = "40",
+                       Quantity = "100",
+                       Discount = "0",
+                       Customer = "○○ Customer1",
+                       ExtendedPrice = "0",
+                   },
+                   new OrderDetail
+                   {
+                       UnitPrice = "40",
+                       Quantity = "100",
+                       Discount = "0",
+                       Customer = "○○ Customer2",
+                       ExtendedPrice = "0",
+                   },
+               }
+            },
+            new NestedDocumentSample()
+            {
+               OrderName = "Erasers",
+               ProductDescriptions = new List<ProductDescription>
+               {
+                   new ProductDescription
+                   {
+                       DescriptionContent ="Erasers DescriptionContent"
+                   },
+                   new ProductDescription
+                   {
+                       DescriptionContent ="Erasers Price"
+                   },
+                   new ProductDescription
+                   {
+                       DescriptionContent ="Erasers Supplier"
+                   },
+               },
+               OrderDetails = new List<OrderDetail>
+               {
+                   new OrderDetail
+                   {
+                       UnitPrice = "12",
+                       Quantity = "100",
+                       Discount = "0",
+                       Customer = "○○ Customer",
+                       ExtendedPrice = "0",
+                   },
+                   new OrderDetail
+                   {
+                       UnitPrice = "12",
+                       Quantity = "100",
+                       Discount = "0",
+                       Customer = "○○ Customer1",
+                       ExtendedPrice = "0",
+                   },
+                   new OrderDetail
+                   {
+                       UnitPrice = "12",
+                       Quantity = "100",
+                       Discount = "0",
+                       Customer = "○○ Customer2",
+                       ExtendedPrice = "0",
+                   },
+               }
+            },
+        };
 
+        var wordXmlBiz = new WordXMLBiz(data);
+        wordXmlBiz.MergeFile(@"D:\NestedDocumentSample.docx", output);
+        Console.WriteLine($@"File {output} generated successfully");
+    }
+}
 ```
 
 #### Merge Result ####
