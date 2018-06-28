@@ -25,7 +25,7 @@ MergeDocument.dll provides a simple and flexible structure that documents can be
 - Create your own document template.
 ![Alt text](https://github.com/Itsower/MergeDocument/blob/master/createDocumentTemplate.jpg)
 
-### Writing Repeatable Text ###
+### Writing Text to Repeatable Document Structure ###
 ![Alt text](https://github.com/Itsower/MergeDocument/blob/master/writingRepeatableText.jpg)
 
 #### Define the Model Structure of Document ####
