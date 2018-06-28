@@ -389,3 +389,4 @@ public class DocumentBiz
 ```
 
 #### Merge Result ####
+![Alt text](https://github.com/Itsower/MergeDocument/blob/master/writingNestedRepeatableStructureResult.jpg)
