@@ -26,7 +26,7 @@ MergeDocument.dll provides a simple and flexible structure that documents can be
 ![Alt text](https://github.com/Itsower/MergeDocument/blob/master/createDocumentTemplate.jpg)
 
 ### Writing Text to Repeatable Document Structure ###
-![Alt text](https://github.com/Itsower/MergeDocument/blob/master/writingRepeatableText.jpg)
+![Alt text](https://github.com/Itsower/MergeDocument/blob/master/writingRepeatableStructure.jpg)
 
 #### Define the Model Structure of Document ####
 ```csharp
@@ -76,7 +76,7 @@ public class DocumentBiz
 ```
 
 #### Merge Result ####
-![Alt text](https://github.com/Itsower/MergeDocument/blob/master/writingRepeatableText_Result.jpg)
+![Alt text](https://github.com/Itsower/MergeDocument/blob/master/writingRepeatableStructure_Result.jpg)
 
 ### Writing Repeatable Table Column ###
 #### Define the Model Structure of Document ####
