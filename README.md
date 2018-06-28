@@ -170,6 +170,8 @@ public class DocumentBiz
 -----
 
 ### Writing Text to Repeatable Nested Block/Table Structure ###
+![Alt text](https://github.com/Itsower/MergeDocument/blob/master/wordDeveloperTag.jpg)
+
 #### Define the Model Structure of Document ####
 #### Sample Code ####
 #### Merge Result ####
