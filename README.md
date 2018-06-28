@@ -76,7 +76,7 @@ public class DocumentBiz
 ```
 
 #### Merge Result ####
-![Alt text](https://github.com/Itsower/MergeDocument/blob/master/writingRepeatableStructure_Result.jpg)
+![Alt text](https://github.com/Itsower/MergeDocument/blob/master/writingRepeatableStructureResult.jpg)
 
 ### Writing Repeatable Table Column ###
 #### Define the Model Structure of Document ####
