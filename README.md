@@ -87,7 +87,7 @@ public class DocumentBiz
 
 ### Writing Text to Repeatable Table Column Structure ### 
 ![Alt text](https://github.com/Itsower/MergeDocument/blob/master/writingRepeatableTableStructure.jpg)
-- "Table Repeatable Sample" must be Repeating Section Content Control, and its name must be the same with model class name below.
+- "TableRepeatableSample" must be Repeating Section Content Control, and must be named with model class name below.
 - Insert bindfields into the scope of "Table Repeatable Sample", the rule of bindfield is the same as block structure.
 
 #### Define the Model Structure of Document ####
