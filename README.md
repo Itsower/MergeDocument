@@ -452,4 +452,93 @@ public class ShippingDetail : TemplateDataBase
 ```
 
 #### Sample Code ####
+```csharp
+using MergeDocument.Biz;
+using MergeDocument.Model.Interface;
+using MergeMocumentSampleCode.SampleModels;
+using MergeDocument.Common;
+
+namespace MergeMocumentSampleCode
+{
+    public class DocumentBiz
+    {
+        public void InsertImageNestedDocumentSample()
+        {
+            string output = System.IO.Path.Combine(@"D:\", $"{DateTime.Now:yyyyMMddHHmmss}.docx");
+
+            List<TemplateDataBase> data = new List<TemplateDataBase>
+            {
+                new InsertImageNestedSample()
+                {
+                   ShipName = "Cars",
+                   ShipDescriptions = new List<ShipDescription>
+                   {
+                       new ShipDescription
+                       {
+                           ShipDescriptionContent ="Car Product DescriptionContent",
+                           ShipContentImage = @""
+                       },
+                   },
+                   ShippingDetails = new List<ShippingDetail>
+                   {
+                       new ShippingDetail
+                       {
+                           ShippingPrice = "10000000",
+                           ShippingQuantity = "100",
+                           ShippingDiscount = "0",
+                           ShipToCustomer = "○○ Customer",
+                           ShippingExtendedPrice = "0",
+                           ShippingProductImage = @"D:\2LuRgfP.jpg"
+                       },
+                   }
+                },
+                new InsertImageNestedSample()
+                {
+                   ShipName = "4K TV",
+                   ShipDescriptions = new List<ShipDescription>
+                   {
+                       new ShipDescription
+                       {
+                           ShipDescriptionContent ="4K TV Product DescriptionContent",
+                           ShipContentImage = @"D:\2LuRgfP.jpg"
+                       },
+                       new ShipDescription
+                       {
+                           ShipDescriptionContent ="4K TV Product DescriptionContent",
+                           ShipContentImage = @"D:\FIFA.png"
+                       },
+                   },
+                   ShippingDetails = new List<ShippingDetail>
+                   {
+                       new ShippingDetail
+                       {
+                           ShippingPrice = "50000000",
+                           ShippingQuantity = "100",
+                           ShippingDiscount = "0",
+                           ShipToCustomer = "○○ Customer",
+                           ShippingExtendedPrice = "0",
+                           ShippingProductImage = @"D:\FIFA.png"
+                       },
+                       new ShippingDetail
+                       {
+                           ShippingPrice = "10000000",
+                           ShippingQuantity = "100",
+                           ShippingDiscount = "0",
+                           ShipToCustomer = "○○ Customer",
+                           ShippingExtendedPrice = "0",
+                           ShippingProductImage = @"D:\2LuRgfP.jpg"
+                       },
+                   }
+                },
+            };
+
+            var wordXmlBiz = new WordXMLBiz(data);
+            wordXmlBiz.MergeFile(@"D:\InsertImageNestedSample.docx", output);
+            Console.WriteLine($@"File {output} generated successfully");
+        }
+    }
+}
+
+```
+
 #### Merge Result ####
