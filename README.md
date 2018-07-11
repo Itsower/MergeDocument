@@ -392,6 +392,64 @@ public class DocumentBiz
 ![Alt text](https://github.com/Itsower/MergeDocument/blob/master/writingNestedRepeatableStructureResult.jpg)
 
 ### Insert Image to Picture Content Control ###
-#### Merge Result ####
+#### Define the Model Structure of Document ####
+```csharp
+
+// Reference MergeDocument
+using MergeDocument.Model.BaseObject;
+using MergeDocument.Model.Interface;
+
+// Template Class, must inheritance TemplateDataBase class
+public class InsertImageNestedSample : TemplateDataBase
+{
+    [BindField]
+    public string ShipName { get; set; }
+
+    // Block Repeater Property, must Add BlockRepeater attribute
+    // Use collections as type of BlockRepeater Property
+    [BlockRepeater]
+    public List<ShipDescription> ShipDescriptions { get; set; }
+
+    // Table Repeater Property, must Add Repeater attribute
+    // Use collections as type of Repeater Property
+    [TableRepeater]
+    public List<ShippingDetail> ShippingDetails { get; set; }
+}
+
+// Nested Repeater
+public class ShipDescription : TemplateDataBase
+{
+    [BindField]
+    public string ShipDescriptionContent { get; set; }
+
+    // Add Image Attribute
+    [Image]
+    public string ShipContentImage { get; set; }
+}
+
+// Nested Repeater
+public class ShippingDetail : TemplateDataBase
+{
+    [BindField]
+    public string ShippingPrice { get; set; }
+
+    [BindField]
+    public string ShippingQuantity { get; set; }
+
+    [BindField]
+    public string ShippingDiscount { get; set; }
+
+    [BindField]
+    public string ShipToCustomer { get; set; }
+
+    [BindField]
+    public string ShippingExtendedPrice { get; set; }
+
+    // Add Image Attribute
+    [Image]
+    public string ShippingProductImage { get; set; }
+}
+```
+
 #### Sample Code ####
 #### Merge Result ####
