@@ -390,3 +390,8 @@ public class DocumentBiz
 
 #### Merge Result ####
 ![Alt text](https://github.com/Itsower/MergeDocument/blob/master/writingNestedRepeatableStructureResult.jpg)
+
+### Insert Image to Picture Content Control ###
+#### Merge Result ####
+#### Sample Code ####
+#### Merge Result ####
