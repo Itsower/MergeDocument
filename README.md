@@ -392,6 +392,8 @@ public class DocumentBiz
 ![Alt text](https://github.com/Itsower/MergeDocument/blob/master/writingNestedRepeatableStructureResult.jpg)
 
 ### Insert Image to Picture Content Control ###
+![Alt text](https://github.com/Itsower/MergeDocument/blob/master/writingNestedRepeatableStructureWithImage.jpg)
+
 #### Define the Model Structure of Document ####
 ```csharp
 
