@@ -8,3 +8,9 @@ MergeDocument.dll provides a simple and flexible structure that documents can be
 - Generating document content with repeatable template, including World Block and Table.
 - Supporting image inserted to Word Picture Content Control.
 - Supporting .Net Framework development, and Microsoft World Developer template.
+
+### Support ###
+- Coding Environment: .Net Framework 4.6.1 Up
+- Template File: Word 2013 Up
+
+-----
