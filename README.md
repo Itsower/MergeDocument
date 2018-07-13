@@ -9,10 +9,9 @@ MergeDocument.dll provides a simple and flexible structure that documents can be
 - Supporting image inserted to Word Picture Content Control.
 - Supporting .Net Framework development, and Microsoft World Developer template.
 
-### Support ###
+## Support ##
 - Coding Environment: .Net Framework 4.6.1 Up
 - Template File: Word 2013 Up
------
 
 ## Example of usage ##
 [Here](https://github.com/Itsower/MergeDocument/blob/master/MergeDocumentSample.zip "Here") you will find the example of source code and document templates.
