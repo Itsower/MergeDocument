@@ -17,3 +17,12 @@ MergeDocument.dll provides a simple and flexible structure that documents can be
 
 ## Example of usage ##
 [Here](https://github.com/Itsower/MergeDocument/blob/master/MergeDocumentSample.zip "Here") you will find the example of source code and document templates.
+<br />
+
+## Tutorial ##
+Below are the lists of links of Merge Document dll tutorial
+- Writing document content with flexible custom model structure.
+- Saving document to PDF file.
+- Generating document content with repeatable template, including World Block and Table.
+- Supporting image inserted to Word Picture Content Control.
+- Supporting .Net Framework development, and Microsoft World Developer template.
