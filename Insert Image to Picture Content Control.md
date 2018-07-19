@@ -152,3 +152,4 @@ namespace MergeMocumentSampleCode
 ```
 
 #### Merge Result ####
+![Alt text](https://github.com/Itsower/MergeDocument/blob/master/insertImageNestedDocumentSample.jpg)
