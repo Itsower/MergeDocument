@@ -25,6 +25,6 @@ Below are the lists of links of Merge Document dll tutorial
 - [Link](https://github.com/Itsower/MergeDocument/blob/master/How%20to%20create%20template.md "Link") How to create template.
 - [Link](https://github.com/Itsower/MergeDocument/blob/master/Writing%20Text%20to%20Repeatable%20Block%20Structure.md "Link") Writing Text to Repeatable Block Structure.
 - [Link](https://github.com/Itsower/MergeDocument/blob/master/Writing%20Text%20to%20Repeatable%20Table%20Column%20Structure.md "Link") Writing Text to Repeatable Table Column Structure.
-- [Link](https://github.com/Itsower/MergeDocument/blob/master/MergeDocumentSample.zip "Link") Writing Text to Repeatable Nested Block/Table Structure.
+- [Link](https://github.com/Itsower/MergeDocument/blob/master/Writing%20Text%20to%20Repeatable%20Nested%20Block_Table%20Structure.md "Link") Writing Text to Repeatable Nested Block/Table Structure.
 - [Link](https://github.com/Itsower/MergeDocument/blob/master/MergeDocumentSample.zip "Link") Insert Image to Picture Content Control.
 - [Link](https://github.com/Itsower/MergeDocument/blob/master/MergeDocumentSample.zip "Link") Saving document to PDF file.
