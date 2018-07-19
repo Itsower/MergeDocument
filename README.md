@@ -18,7 +18,6 @@ MergeDocument.dll provides a simple and flexible structure that documents can be
 ## Example of usage ##
 [Here](https://github.com/Itsower/MergeDocument/blob/master/MergeDocumentSample.zip "Here") you will find the example of source code and document templates.
 <br />
-<br />
 
 ## Tutorial ##
 Below are the lists of links of Merge Document dll tutorial
@@ -27,7 +26,6 @@ Below are the lists of links of Merge Document dll tutorial
 - [Link](https://github.com/Itsower/MergeDocument/blob/master/MergeDocumentSample.zip "Link") Writing Text to Repeatable Nested Block/Table Structure.
 - [Link](https://github.com/Itsower/MergeDocument/blob/master/MergeDocumentSample.zip "Link") Insert Image to Picture Content Control.
 - [Link](https://github.com/Itsower/MergeDocument/blob/master/MergeDocumentSample.zip "Link") Saving document to PDF file.
-<br />
 <br />
 
 ### How to create template ###
