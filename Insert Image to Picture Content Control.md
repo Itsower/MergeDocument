@@ -1,7 +1,6 @@
 ## Insert Image to Picture Content Control ##
 ### Document Template ###
 ![Alt text](https://github.com/Itsower/MergeDocument/blob/master/writingNestedRepeatableStructureWithImage.jpg)
-<br />
 
 ### Define the Model Structure of Document ###
 ```csharp
