@@ -1,7 +1,8 @@
-### Insert Image to Picture Content Control ###
+## Insert Image to Picture Content Control ##
+### Document T ###
 ![Alt text](https://github.com/Itsower/MergeDocument/blob/master/writingNestedRepeatableStructureWithImage.jpg)
 
-#### Define the Model Structure of Document ####
+### Define the Model Structure of Document ###
 ```csharp
 
 // Reference MergeDocument
@@ -95,7 +96,7 @@ namespace MergeMocumentSampleCode
                            ShippingPrice = "10000000",
                            ShippingQuantity = "100",
                            ShippingDiscount = "0",
-                           ShipToCustomer = "¡³¡³ Customer",
+                           ShipToCustomer = "Â¡Â³Â¡Â³ Customer",
                            ShippingExtendedPrice = "0",
                            ShippingProductImage = @"D:\2LuRgfP.jpg"
                        },
@@ -124,7 +125,7 @@ namespace MergeMocumentSampleCode
                            ShippingPrice = "50000000",
                            ShippingQuantity = "100",
                            ShippingDiscount = "0",
-                           ShipToCustomer = "¡³¡³ Customer",
+                           ShipToCustomer = "Â¡Â³Â¡Â³ Customer",
                            ShippingExtendedPrice = "0",
                            ShippingProductImage = @"D:\FIFA.png"
                        },
@@ -133,7 +134,7 @@ namespace MergeMocumentSampleCode
                            ShippingPrice = "10000000",
                            ShippingQuantity = "100",
                            ShippingDiscount = "0",
-                           ShipToCustomer = "¡³¡³ Customer",
+                           ShipToCustomer = "Â¡Â³Â¡Â³ Customer",
                            ShippingExtendedPrice = "0",
                            ShippingProductImage = @"D:\2LuRgfP.jpg"
                        },
