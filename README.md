@@ -22,18 +22,9 @@ MergeDocument.dll provides a simple and flexible structure that documents can be
 
 ## Tutorial ##
 Below are the lists of links of Merge Document dll tutorial
-- [Link](https://github.com/Itsower/MergeDocument/blob/master/Writing%20Text%20to%20Repeatable%20Block%20Structure.md "Link") How to create template.
+- [Link](https://github.com/Itsower/MergeDocument/blob/master/How%20to%20create%20template.md "Link") How to create template.
 - [Link](https://github.com/Itsower/MergeDocument/blob/master/Writing%20Text%20to%20Repeatable%20Block%20Structure.md "Link") Writing Text to Repeatable Block Structure.
 - [Link](https://github.com/Itsower/MergeDocument/blob/master/Writing%20Text%20to%20Repeatable%20Table%20Column%20Structure.md "Link") Writing Text to Repeatable Table Column Structure.
 - [Link](https://github.com/Itsower/MergeDocument/blob/master/MergeDocumentSample.zip "Link") Writing Text to Repeatable Nested Block/Table Structure.
 - [Link](https://github.com/Itsower/MergeDocument/blob/master/MergeDocumentSample.zip "Link") Insert Image to Picture Content Control.
 - [Link](https://github.com/Itsower/MergeDocument/blob/master/MergeDocumentSample.zip "Link") Saving document to PDF file.
-
-### How to create template ###
-- Open Microsoft Word and create new file.
-- Click Developer tab.
-![Alt text](https://github.com/Itsower/MergeDocument/blob/master/wordDeveloperTag.jpg)
-
-- If you cannot find the Developer tab on the Ribbon, [see](https://docs.microsoft.com/en-us/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon "see").
-- Create your own document template.
-![Alt text](https://github.com/Itsower/MergeDocument/blob/master/createDocumentTemplate.jpg)
