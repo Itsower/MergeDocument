@@ -1,8 +1,8 @@
-### Writing Text to Repeatable Block Structure ###
-#### Document Template ####
+## Writing Text to Repeatable Block Structure ##
+### Document Template ###
 ![Alt text](https://github.com/Itsower/MergeDocument/blob/master/writingRepeatableStructure.jpg)
 
-#### Define the Model Structure of Document ####
+### Define the Model Structure of Document ###
 ```csharp
 // Reference MergeDocument
 using MergeDocument.Model.BaseObject;
@@ -20,7 +20,7 @@ namespace MergeMocumentSampleCode.SampleModels
 }
 ```
 
-#### Sample Code ####
+### Sample Code ###
 ```csharp
 // Reference MergeDocument
 using MergeDocument.Biz;
@@ -51,5 +51,5 @@ public class DocumentBiz
 }
 ```
 
-#### Merge Result ####
+### Merge Result ###
 ![Alt text](https://github.com/Itsower/MergeDocument/blob/master/writingRepeatableStructureResult.jpg)
