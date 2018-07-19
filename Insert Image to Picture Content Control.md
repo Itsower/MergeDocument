@@ -63,6 +63,7 @@ public class ShippingDetail : TemplateDataBase
 
 #### Sample Code ####
 ```csharp
+// Reference MergeDocument
 using MergeDocument.Biz;
 using MergeDocument.Model.Interface;
 using MergeMocumentSampleCode.SampleModels;
@@ -98,7 +99,7 @@ namespace MergeMocumentSampleCode
                            ShippingDiscount = "0",
                            ShipToCustomer = "¡³¡³ Customer",
                            ShippingExtendedPrice = "0",
-                           ShippingProductImage = @"D:\2LuRgfP.jpg"
+                           ShippingProductImage = @"D:\2LuRgfP.jpg"  // Set File Path to Property with Image Attribute
                        },
                    }
                 },
@@ -110,12 +111,12 @@ namespace MergeMocumentSampleCode
                        new ShipDescription
                        {
                            ShipDescriptionContent ="4K TV Product DescriptionContent",
-                           ShipContentImage = @"D:\2LuRgfP.jpg"
+                           ShipContentImage = @"D:\2LuRgfP.jpg"  // Set File Path to Property with Image Attribute
                        },
                        new ShipDescription
                        {
                            ShipDescriptionContent ="4K TV Product DescriptionContent",
-                           ShipContentImage = @"D:\FIFA.png"
+                           ShipContentImage = @"D:\FIFA.png"  // Set File Path to Property with Image Attribute
                        },
                    },
                    ShippingDetails = new List<ShippingDetail>
@@ -127,7 +128,7 @@ namespace MergeMocumentSampleCode
                            ShippingDiscount = "0",
                            ShipToCustomer = "¡³¡³ Customer",
                            ShippingExtendedPrice = "0",
-                           ShippingProductImage = @"D:\FIFA.png"
+                           ShippingProductImage = @"D:\FIFA.png"  // Set File Path to Property with Image Attribute
                        },
                        new ShippingDetail
                        {
@@ -136,7 +137,7 @@ namespace MergeMocumentSampleCode
                            ShippingDiscount = "0",
                            ShipToCustomer = "¡³¡³ Customer",
                            ShippingExtendedPrice = "0",
-                           ShippingProductImage = @"D:\2LuRgfP.jpg"
+                           ShippingProductImage = @"D:\2LuRgfP.jpg"  // Set File Path to Property with Image Attribute
                        },
                    }
                 },
