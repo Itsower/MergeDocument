@@ -39,3 +39,4 @@ namespace MergeMocumentSampleCode
 
 ## Generate Result ##
 ![Alt text](https://github.com/Itsower/MergeDocument/blob/master/generatingPDFFile01.jpg)
+![Alt text](https://github.com/Itsower/MergeDocument/blob/master/generatingPDFFile02.jpg)
